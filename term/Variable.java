@@ -15,8 +15,7 @@ public class Variable implements Term {
 	public Variable(String name) {
 		this.name = name;
 		if (Pattern.matches("v\\d+", name)) {
-			throw new RuntimeException("Variable: the name '" + name
-					+ "' is not allowed");
+			throw new RuntimeException("Variable: the name '" + name + "' is not allowed");
 		}
 	}
 

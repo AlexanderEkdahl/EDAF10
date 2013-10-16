@@ -1,8 +1,5 @@
 package expr;
 
-import java.util.Map;
-import java.util.Set;
-
 public class Conjunction extends BinOp {
     public Conjunction(Expr expr1, Expr expr2){
         super(expr1, expr2);
